@@ -1,0 +1,633 @@
+<?xml version="1.0"?>
+<xts:sports-content-set xmlns:xts="http://www.xmlteam.com" query-date-time="20110509T003747-0400" query-string="http://fod.xmlteam.com/api/getDocuments?doc-ids=xt.13501302-standings" hostname="fod.xmlteam.com" result-count="1" error-count="0" elapsed-time="9.4ms"><sports-content xmlns:str="java.lang.String" xmlns:dt="http://xsltsl.org/date-time" xmlns:xts="http://www.xmlteam.com" xmlns:exsl="http://exslt.org/common" path-id="ice-hockey/l.nhl.com/standings/xt.13501302-standings" xts:systemid="NHL_Hockey_Standings_XML" xts:tsnid="13501302">
+  <sports-metadata xmlns:fs="java.io.File" date-time="20110411T140900-0400" doc-id="xt.13501302-standings" xts:tsnslug="ADL!NHL-STANDINGS" language="en-US" revision-id="xt.13500428-standings" fixture-key="standings-by-division" document-class="standings" fixture-name="Division Standings">
+    <sports-title>Final 2010-2011 National Hockey League Standings</sports-title>
+    <sports-content-codes>
+      <sports-content-code code-name="The Sports Network" code-key="sportsnetwork.com" code-type="publisher"/>
+      <sports-content-code code-name="XML Team Solutions, Inc." code-key="xmlteam.com" code-type="distributor"/>
+      <sports-content-code code-type="sport" code-key="15031000" code-name="Ice Hockey"/>
+      <sports-content-code code-type="league" code-key="l.nhl.com" code-name="National Hockey League"/>
+      <sports-content-code code-type="standing-type" code-key="division" code-name="Division Standings"/>
+      <sports-content-code code-type="standing-affiliation" code-key="league" code-name="League"/>
+      <sports-content-code code-type="priority" code-key="normal"/>
+    </sports-content-codes>
+  </sports-metadata>
+  <standing content-label="Atlantic Division">
+    <standing-metadata team-coverage="multi-team" date-coverage-type="season-regular" date-coverage-value="2010" stats-coverage="expanded" competition-scope="league">
+      <sports-content-codes>
+        <sports-content-code code-type="conference" code-key="c.eastern" code-name="Eastern"/>
+        <sports-content-code code-type="division" code-key="d.atlantic" code-name="Atlantic"/>
+      </sports-content-codes>
+    </standing-metadata>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.4" alignment="none">
+        <name first="Philadelphia" last="Flyers"/>
+      </team-metadata>
+      <team-stats standing-points="106" events-played="82" result-effect="y">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="7"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="12"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="22" losses="12" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="7"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="25" losses="11" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="17" losses="4" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="3"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="3" losses="4"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="3"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="47" losses="23" ties="12" losses-overtime="12" points-scored-for="259" points-scored-against="223" xts:streak="W 1" streak-type="win" streak-total="1" events-played="82" standing-points="106"/>
+        <rank value="1" xts:conference-rank="2"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.5" alignment="none">
+        <name first="Pittsburgh" last="Penguins"/>
+      </team-metadata>
+      <team-stats standing-points="106" events-played="82" result-effect="x">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="3"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="8"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="25" losses="14" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="2"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="24" losses="11" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="12" losses="9" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="3"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="8" losses="2"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="0"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="49" losses="25" ties="8" losses-overtime="8" points-scored-for="238" points-scored-against="199" xts:streak="W 4" streak-type="win" streak-total="4" events-played="82" standing-points="106"/>
+        <rank value="2" xts:conference-rank="4"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.3" alignment="none">
+        <name first="New York" last="Rangers"/>
+      </team-metadata>
+      <team-stats standing-points="93" events-played="82" result-effect="x">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="3"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="20" losses="17" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="4"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="24" losses="16" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="1"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="14" losses="9" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="6" losses="3"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="44" losses="33" ties="5" losses-overtime="5" points-scored-for="233" points-scored-against="198" xts:streak="W 1" streak-type="win" streak-total="1" events-played="82" standing-points="93"/>
+        <rank value="3" xts:conference-rank="8"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.1" alignment="none">
+        <name first="New Jersey" last="Devils"/>
+      </team-metadata>
+      <team-stats standing-points="81" events-played="82">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="2"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="22" losses="16" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="3"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="16" losses="23" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="2"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="11" losses="12" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="4" losses="5"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="38" losses="39" ties="5" losses-overtime="5" points-scored-for="174" points-scored-against="209" xts:streak="W 1" streak-type="win" streak-total="1" events-played="82" standing-points="81"/>
+        <rank value="4" xts:conference-rank="11"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.2" alignment="none">
+        <name first="New York" last="Islanders"/>
+      </team-metadata>
+      <team-stats standing-points="73" events-played="82">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="13"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="17" losses="18" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="13" losses="21" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="7"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="6" losses="13" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="3" losses="6"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="30" losses="39" ties="13" losses-overtime="13" points-scored-for="229" points-scored-against="264" xts:streak="L 4" streak-type="loss" streak-total="4" events-played="82" standing-points="73"/>
+        <rank value="5" xts:conference-rank="14"/>
+      </team-stats>
+    </team>
+  </standing>
+  <standing content-label="Northeast Division">
+    <standing-metadata team-coverage="multi-team" date-coverage-type="season-regular" date-coverage-value="2010" stats-coverage="expanded" competition-scope="league">
+      <sports-content-codes>
+        <sports-content-code code-type="conference" code-key="c.eastern" code-name="Eastern"/>
+        <sports-content-code code-type="division" code-key="d.northeast" code-name="Northeast"/>
+      </sports-content-codes>
+    </standing-metadata>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.11" alignment="none">
+        <name first="Boston" last="Bruins"/>
+      </team-metadata>
+      <team-stats standing-points="103" events-played="82" result-effect="y">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="11"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="22" losses="13" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="24" losses="12" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="11" losses="8" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="6" losses="3"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="46" losses="25" ties="11" losses-overtime="11" points-scored-for="246" points-scored-against="195" xts:streak="L 1" streak-type="loss" streak-total="1" events-played="82" standing-points="103"/>
+        <rank value="1" xts:conference-rank="3"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.13" alignment="none">
+        <name first="Montreal" last="Canadiens"/>
+      </team-metadata>
+      <team-stats standing-points="96" events-played="82" result-effect="x">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="3"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="8"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="24" losses="11" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="20" losses="19" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="2"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="14" losses="7" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="3"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="5" losses="4"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="44" losses="30" ties="8" losses-overtime="8" points-scored-for="216" points-scored-against="209" xts:streak="W 1" streak-type="win" streak-total="1" events-played="82" standing-points="96"/>
+        <rank value="2" xts:conference-rank="6"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.12" alignment="none">
+        <name first="Buffalo" last="Sabres"/>
+      </team-metadata>
+      <team-stats standing-points="96" events-played="82" result-effect="x">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="1"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="10"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="21" losses="16" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="4"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="22" losses="13" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="15" losses="8" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="8" losses="1"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="43" losses="29" ties="10" losses-overtime="10" points-scored-for="245" points-scored-against="229" xts:streak="W 4" streak-type="win" streak-total="4" events-played="82" standing-points="96"/>
+        <rank value="3" xts:conference-rank="7"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.15" alignment="none">
+        <name first="Toronto" last="Maple Leafs"/>
+      </team-metadata>
+      <team-stats standing-points="85" events-played="82">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="11"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="18" losses="15" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="8"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="19" losses="19" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="3"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="13" losses="9" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="2"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="6" losses="3"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="37" losses="34" ties="11" losses-overtime="11" points-scored-for="218" points-scored-against="251" xts:streak="L 3" streak-type="loss" streak-total="3" events-played="82" standing-points="85"/>
+        <rank value="4" xts:conference-rank="10"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.14" alignment="none">
+        <name first="Ottawa" last="Senators"/>
+      </team-metadata>
+      <team-stats standing-points="74" events-played="82">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="10"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="16" losses="20" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="16" losses="20" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="7" losses="15" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="2"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="5" losses="4"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="32" losses="40" ties="10" losses-overtime="10" points-scored-for="192" points-scored-against="250" xts:streak="L 1" streak-type="loss" streak-total="1" events-played="82" standing-points="74"/>
+        <rank value="5" xts:conference-rank="13"/>
+      </team-stats>
+    </team>
+  </standing>
+  <standing content-label="Southeast Division">
+    <standing-metadata team-coverage="multi-team" date-coverage-type="season-regular" date-coverage-value="2010" stats-coverage="expanded" competition-scope="league">
+      <sports-content-codes>
+        <sports-content-code code-type="conference" code-key="c.eastern" code-name="Eastern"/>
+        <sports-content-code code-type="division" code-key="d.southeast" code-name="Southeast"/>
+      </sports-content-codes>
+    </standing-metadata>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.8" alignment="none">
+        <name first="Washington" last="Capitals"/>
+      </team-metadata>
+      <team-stats standing-points="107" events-played="82" result-effect="y">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="11"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="25" losses="8" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="8"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="23" losses="15" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="3"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="14" losses="7" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="3"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="7" losses="2"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="48" losses="23" ties="11" losses-overtime="11" points-scored-for="224" points-scored-against="197" xts:streak="L 1" streak-type="loss" streak-total="1" events-played="82" standing-points="107"/>
+        <rank value="1" xts:conference-rank="1"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.7" alignment="none">
+        <name first="Tampa Bay" last="Lightning"/>
+      </team-metadata>
+      <team-stats standing-points="103" events-played="82" result-effect="x">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="11"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="25" losses="11" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="21" losses="14" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="14" losses="6" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="4"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="7" losses="3"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="0"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="46" losses="25" ties="11" losses-overtime="11" points-scored-for="247" points-scored-against="240" xts:streak="W 2" streak-type="win" streak-total="2" events-played="82" standing-points="103"/>
+        <rank value="2" xts:conference-rank="5"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.6" alignment="none">
+        <name first="Carolina" last="Hurricanes"/>
+      </team-metadata>
+      <team-stats standing-points="91" events-played="82">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="11"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="22" losses="14" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="18" losses="17" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="12" losses="8" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="4"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="7" losses="2"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="40" losses="31" ties="11" losses-overtime="11" points-scored-for="236" points-scored-against="239" xts:streak="L 1" streak-type="loss" streak-total="1" events-played="82" standing-points="91"/>
+        <rank value="3" xts:conference-rank="9"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.9" alignment="none">
+        <name first="Atlanta" last="Thrashers"/>
+      </team-metadata>
+      <team-stats standing-points="80" events-played="82">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="7"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="12"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="17" losses="17" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="7"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="17" losses="19" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="9" losses="7" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="8"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="4" losses="6"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="0"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="34" losses="36" ties="12" losses-overtime="12" points-scored-for="223" points-scored-against="269" xts:streak="L 2" streak-type="loss" streak-total="2" events-played="82" standing-points="80"/>
+        <rank value="4" xts:conference-rank="12"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.10" alignment="none">
+        <name first="Florida" last="Panthers"/>
+      </team-metadata>
+      <team-stats standing-points="72" events-played="82">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="7"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="12"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="16" losses="17" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="8"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="14" losses="23" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="4"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="11" losses="9" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="4"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="1" losses="7"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="2"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="30" losses="40" ties="12" losses-overtime="12" points-scored-for="195" points-scored-against="229" xts:streak="W 1" streak-type="win" streak-total="1" events-played="82" standing-points="72"/>
+        <rank value="5" xts:conference-rank="15"/>
+      </team-stats>
+    </team>
+  </standing>
+  <standing content-label="Central Division">
+    <standing-metadata team-coverage="multi-team" date-coverage-type="season-regular" date-coverage-value="2010" stats-coverage="expanded" competition-scope="league">
+      <sports-content-codes>
+        <sports-content-code code-type="conference" code-key="c.western" code-name="Western"/>
+        <sports-content-code code-type="division" code-key="d.central" code-name="Central"/>
+      </sports-content-codes>
+    </standing-metadata>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.17" alignment="none">
+        <name first="Detroit" last="Red Wings"/>
+      </team-metadata>
+      <team-stats standing-points="104" events-played="82" result-effect="y">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="4"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="10"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="21" losses="14" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="26" losses="11" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="4"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="12" losses="10" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="2"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="4" losses="4"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="2"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="47" losses="25" ties="10" losses-overtime="10" points-scored-for="261" points-scored-against="241" xts:streak="W 1" streak-type="win" streak-total="1" events-played="82" standing-points="104"/>
+        <rank value="1" xts:conference-rank="3"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.19" alignment="none">
+        <name first="Nashville" last="Predators"/>
+      </team-metadata>
+      <team-stats standing-points="99" events-played="82" result-effect="x">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="4"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="11"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="24" losses="9" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="8"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="20" losses="18" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="3"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="13" losses="9" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="2"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="7" losses="2"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="44" losses="27" ties="11" losses-overtime="11" points-scored-for="219" points-scored-against="194" xts:streak="L 1" streak-type="loss" streak-total="1" events-played="82" standing-points="99"/>
+        <rank value="2" xts:conference-rank="5"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.16" alignment="none">
+        <name first="Chicago" last="Blackhawks"/>
+      </team-metadata>
+      <team-stats standing-points="97" events-played="82" result-effect="x">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="9"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="24" losses="17" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="0"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="20" losses="12" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="9"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="15" losses="7" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="2"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="5" losses="4"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="44" losses="29" ties="9" losses-overtime="9" points-scored-for="258" points-scored-against="225" xts:streak="L 1" streak-type="loss" streak-total="1" events-played="82" standing-points="97"/>
+        <rank value="3" xts:conference-rank="8"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.18" alignment="none">
+        <name first="St. Louis" last="Blues"/>
+      </team-metadata>
+      <team-stats standing-points="87" events-played="82">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="11"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="23" losses="13" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="15" losses="20" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="12" losses="8" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="4"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="6" losses="2"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="2"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="38" losses="33" ties="11" losses-overtime="11" points-scored-for="240" points-scored-against="234" xts:streak="W 1" streak-type="win" streak-total="1" events-played="82" standing-points="87"/>
+        <rank value="4" xts:conference-rank="11"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.20" alignment="none">
+        <name first="Columbus" last="Blue Jackets"/>
+      </team-metadata>
+      <team-stats standing-points="81" events-played="82">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="8"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="13"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="17" losses="19" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="17" losses="16" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="8"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="8" losses="11" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="1" losses="6"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="3"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="34" losses="35" ties="13" losses-overtime="13" points-scored-for="215" points-scored-against="258" xts:streak="L 6" streak-type="loss" streak-total="6" events-played="82" standing-points="81"/>
+        <rank value="5" xts:conference-rank="13"/>
+      </team-stats>
+    </team>
+  </standing>
+  <standing content-label="Northwest Division">
+    <standing-metadata team-coverage="multi-team" date-coverage-type="season-regular" date-coverage-value="2010" stats-coverage="expanded" competition-scope="league">
+      <sports-content-codes>
+        <sports-content-code code-type="conference" code-key="c.western" code-name="Western"/>
+        <sports-content-code code-type="division" code-key="d.northwest" code-name="Northwest"/>
+      </sports-content-codes>
+    </standing-metadata>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.26" alignment="none">
+        <name first="Vancouver" last="Canucks"/>
+      </team-metadata>
+      <team-stats standing-points="117" events-played="82" result-effect="z">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="9"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="27" losses="9" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="27" losses="10" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="4"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="18" losses="4" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="2"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="7" losses="3"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="0"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="54" losses="19" ties="9" losses-overtime="9" points-scored-for="262" points-scored-against="185" xts:streak="W 2" streak-type="win" streak-total="2" events-played="82" standing-points="117"/>
+        <rank value="1" xts:conference-rank="1"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.28" alignment="none">
+        <name first="Calgary" last="Flames"/>
+      </team-metadata>
+      <team-stats standing-points="94" events-played="82">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="7"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="12"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="23" losses="13" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="18" losses="16" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="7"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="13" losses="10" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="5" losses="2"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="3"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="41" losses="29" ties="12" losses-overtime="12" points-scored-for="250" points-scored-against="237" xts:streak="L 1" streak-type="loss" streak-total="1" events-played="82" standing-points="94"/>
+        <rank value="2" xts:conference-rank="10"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.30" alignment="none">
+        <name first="Minnesota" last="Wild"/>
+      </team-metadata>
+      <team-stats standing-points="86" events-played="82">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="8"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="19" losses="17" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="20" losses="18" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="3"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="16" losses="7" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="4" losses="6"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="0"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="39" losses="35" ties="8" losses-overtime="8" points-scored-for="206" points-scored-against="233" xts:streak="W 2" streak-type="win" streak-total="2" events-played="82" standing-points="86"/>
+        <rank value="3" xts:conference-rank="12"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.27" alignment="none">
+        <name first="Colorado" last="Avalanche"/>
+      </team-metadata>
+      <team-stats standing-points="68" events-played="82">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="1"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="8"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="16" losses="21" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="4"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="14" losses="23" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="4"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="7" losses="16" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="2" losses="8"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="0"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="30" losses="44" ties="8" losses-overtime="8" points-scored-for="227" points-scored-against="288" xts:streak="W 1" streak-type="win" streak-total="1" events-played="82" standing-points="68"/>
+        <rank value="4" xts:conference-rank="14"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.29" alignment="none">
+        <name first="Edmonton" last="Oilers"/>
+      </team-metadata>
+      <team-stats standing-points="62" events-played="82">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="9"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="12"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="13" losses="22" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="12" losses="23" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="6" losses="13" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="2" losses="6"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="2"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="25" losses="45" ties="12" losses-overtime="12" points-scored-for="193" points-scored-against="269" xts:streak="L 3" streak-type="loss" streak-total="3" events-played="82" standing-points="62"/>
+        <rank value="5" xts:conference-rank="15"/>
+      </team-stats>
+    </team>
+  </standing>
+  <standing content-label="Pacific Division">
+    <standing-metadata team-coverage="multi-team" date-coverage-type="season-regular" date-coverage-value="2010" stats-coverage="expanded" competition-scope="league">
+      <sports-content-codes>
+        <sports-content-code code-type="conference" code-key="c.western" code-name="Western"/>
+        <sports-content-code code-type="division" code-key="d.pacific" code-name="Pacific"/>
+      </sports-content-codes>
+    </standing-metadata>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.24" alignment="none">
+        <name first="San Jose" last="Sharks"/>
+      </team-metadata>
+      <team-stats standing-points="105" events-played="82" result-effect="y">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="9"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="25" losses="11" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="23" losses="14" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="4"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="14" losses="5" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="7" losses="2"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="48" losses="25" ties="9" losses-overtime="9" points-scored-for="248" points-scored-against="213" xts:streak="W 1" streak-type="win" streak-total="1" events-played="82" standing-points="105"/>
+        <rank value="1" xts:conference-rank="2"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.22" alignment="none">
+        <name first="Anaheim" last="Ducks"/>
+      </team-metadata>
+      <team-stats standing-points="99" events-played="82" result-effect="x">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="2"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="26" losses="13" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="2"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="21" losses="17" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="3"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="14" losses="10" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="0"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="7" losses="3"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="0"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="47" losses="30" ties="5" losses-overtime="5" points-scored-for="239" points-scored-against="235" xts:streak="W 3" streak-type="win" streak-total="3" events-played="82" standing-points="99"/>
+        <rank value="2" xts:conference-rank="4"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.25" alignment="none">
+        <name first="Phoenix" last="Coyotes"/>
+      </team-metadata>
+      <team-stats standing-points="99" events-played="82" result-effect="x">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="13"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="21" losses="13" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="7"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="22" losses="13" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="11" losses="12" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="1"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="5" losses="3"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="2"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="43" losses="26" ties="13" losses-overtime="13" points-scored-for="231" points-scored-against="226" xts:streak="L 1" streak-type="loss" streak-total="1" events-played="82" standing-points="99"/>
+        <rank value="3" xts:conference-rank="6"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.23" alignment="none">
+        <name first="Los Angeles" last="Kings"/>
+      </team-metadata>
+      <team-stats standing-points="98" events-played="82" result-effect="x">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="2"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="6"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="25" losses="13" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="3"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="21" losses="17" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="3"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="12" losses="10" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="2"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="6" losses="4"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="0"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="46" losses="30" ties="6" losses-overtime="6" points-scored-for="219" points-scored-against="198" xts:streak="L 2" streak-type="loss" streak-total="2" events-played="82" standing-points="98"/>
+        <rank value="4" xts:conference-rank="7"/>
+      </team-stats>
+    </team>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.21" alignment="none">
+        <name first="Dallas" last="Stars"/>
+      </team-metadata>
+      <team-stats standing-points="95" events-played="82">
+        <outcome-totals competition-scope="league" duration-scope="events-shootout" date-coverage-type="season-regular" losses="7"/>
+        <outcome-totals competition-scope="league" duration-scope="events-overtime" date-coverage-type="season-regular" losses="11"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" date-coverage-type="season-regular" wins="22" losses="11" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-home" duration-scope="events-overtime" date-coverage-type="season-regular" losses="8"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" date-coverage-type="season-regular" wins="20" losses="18" events-played="41"/>
+        <outcome-totals competition-scope="league" alignment-scope="events-away" duration-scope="events-overtime" date-coverage-type="season-regular" losses="3"/>
+        <outcome-totals competition-scope="division" date-coverage-type="season-regular" wins="9" losses="10" events-played="24"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="season-regular" losses="5"/>
+        <outcome-totals competition-scope="league" date-coverage-type="last-ten-games" wins="4" losses="4"/>
+        <outcome-totals competition-scope="division" duration-scope="events-overtime" date-coverage-type="last-ten-games" losses="2"/>
+        <outcome-totals competition-scope="league" date-coverage-type="season-regular" wins="42" losses="29" ties="11" losses-overtime="11" points-scored-for="227" points-scored-against="233" xts:streak="L 1" streak-type="loss" streak-total="1" events-played="82" standing-points="95"/>
+        <rank value="5" xts:conference-rank="9"/>
+      </team-stats>
+    </team>
+  </standing>
+</sports-content></xts:sports-content-set>

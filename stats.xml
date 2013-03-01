@@ -1,0 +1,484 @@
+<?xml version="1.0"?>
+<xts:sports-content-set xmlns:xts="http://www.xmlteam.com" query-date-time="20110508T224944-0400" query-string="http://fod.xmlteam.com/api/getDocuments?doc-ids=xt.13510860-indstats-bos" hostname="fod.xmlteam.com" result-count="1" error-count="0" elapsed-time="34.0ms"><sports-content xmlns:str="java.lang.String" xmlns:dt="http://xsltsl.org/date-time" xmlns:xts="http://www.xmlteam.com" xmlns:exsl="http://exslt.org/common" path-id="ice-hockey/l.nhl.com/statistics/xt.13510860-indstats-bos" xts:systemid="NHL_Individual_Stats_XML" xts:tsnid="13510860">
+  <sports-metadata xmlns:fs="java.io.File" date-time="20110413T052300-0400" doc-id="xt.13510860-indstats-bos" xts:tsnslug="ADX%INDSTATS-BOS" language="en-US" revision-id="xt.13510860-indstats-bos" fixture-key="season-stats" document-class="statistics" fixture-name="Season Stats">
+    <sports-title>Final 2010-2011 NHL Individual Statistics - Boston Bruins</sports-title>
+    <sports-content-codes>
+      <sports-content-code code-name="The Sports Network" code-key="sportsnetwork.com" code-type="publisher"/>
+      <sports-content-code code-name="XML Team Solutions, Inc." code-key="xmlteam.com" code-type="distributor"/>
+      <sports-content-code code-type="sport" code-key="15031000" code-name="Ice Hockey"/>
+      <sports-content-code code-type="league" code-key="l.nhl.com" code-name="National Hockey League"/>
+      <sports-content-code code-type="season-type" code-key="regular"/>
+      <sports-content-code code-type="season" code-key="2010"/>
+      <sports-content-code code-type="priority" code-key="normal"/>
+      <sports-content-code code-type="conference" code-key="c.eastern" code-name="Eastern"/>
+      <sports-content-code code-type="team" code-key="l.nhl.com-t.11" code-name="Boston Bruins"/>
+    </sports-content-codes>
+  </sports-metadata>
+  <statistic content-label="Team Individual Stats">
+    <statistic-metadata team-coverage="single-team" date-coverage-type="season-regular" date-coverage-value="2010"/>
+    <team>
+      <team-metadata xmlns:fs="java.io.File" team-key="l.nhl.com-t.11" alignment="none">
+        <name first="Boston" last="Bruins"/>
+      </team-metadata>
+      <team-stats events-played="82" score="244" score-opposing="189" score-attempts="2696" score-attempts-opposing="2682" score-percentage="9.1" score-percentage-opposing="7.0">
+        <penalty-stats count="385" value="1115" type="minutes"/>
+        <outcome-totals wins="46" losses="25" losses-overtime="11"/>
+        <team-stats-ice-hockey penalty-minutes="1115" plus-minus="54">
+          <stats-ice-hockey-offensive goals-power-play="43" goals-short-handed="11" goals-overtime="1" goals-shootout="6" goals-empty-net="12" xts:goals="244" xts:goals-regulation-time="243" xts:shutouts-against="6" shots-power-play="391" shots-short-handed="391" xts:shots="2696" xts:shots-overtime="33" xts:shots-shootout="24" giveaways="542" power-play-amount="265" power-play-percentage="16.2"/>
+          <stats-ice-hockey-defensive goals-power-play-allowed="46" goals-short-handed-allowed="5" xts:goals-overtime-allowed="5" xts:goals-regulation-allowed="184" xts:shots="2696" saves="2682" shutouts="11" takeaways="424" hits="1736" penalty-killing-amount="265" penalty-killing-percentage="82.6"/>
+          <stats-ice-hockey-faceoffs faceoff-wins="2485" faceoff-losses="2306" faceoff-win-percentage="51.9"/>
+        </team-stats-ice-hockey>
+      </team-stats>
+      <player>
+        <player-metadata position-regular="left-forward" player-key="l.nhl.com-p.2298" uniform-number="17">
+          <name full="Milan Lucic"/>
+        </player-metadata>
+        <player-stats events-played="79" time-played-event-average="16:34" score="30" score-attempts="173" score-percentage="17.3">
+          <penalty-stats value="121" count="38" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="121" plus-minus="28">
+            <stats-ice-hockey-offensive assists="32" points="62" goals-power-play="5" points-power-play="14" assists-power-play="9" goals-short-handed="0" assists-short-handed="0" goals-game-winning="7" xts:goals="30" xts:shots="173" giveaways="43"/>
+            <stats-ice-hockey-defensive takeaways="27" shots-blocked="22" hits="167"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="21" faceoff-losses="33" faceoff-win-percentage="38.9"/>
+            <stats-ice-hockey-time-on-ice shifts="1537"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="center" player-key="l.nhl.com-p.2011" uniform-number="46">
+          <name full="David Krejci"/>
+        </player-metadata>
+        <player-stats events-played="75" time-played-event-average="18:51" score="13" score-attempts="157" score-percentage="8.3">
+          <penalty-stats value="28" count="11" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="28" plus-minus="23">
+            <stats-ice-hockey-offensive assists="49" points="62" goals-power-play="1" points-power-play="12" assists-power-play="11" goals-short-handed="0" assists-short-handed="0" goals-game-winning="2" xts:goals="13" xts:shots="157" giveaways="28"/>
+            <stats-ice-hockey-defensive takeaways="33" shots-blocked="40" hits="56"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="560" faceoff-losses="589" faceoff-win-percentage="48.7"/>
+            <stats-ice-hockey-time-on-ice shifts="1651"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="center" player-key="l.nhl.com-p.1338" uniform-number="37">
+          <name full="Patrice Bergeron"/>
+        </player-metadata>
+        <player-stats events-played="80" time-played-event-average="17:53" score="22" score-attempts="211" score-percentage="10.4">
+          <penalty-stats value="26" count="13" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="26" plus-minus="20">
+            <stats-ice-hockey-offensive assists="35" points="57" goals-power-play="3" points-power-play="11" assists-power-play="8" goals-short-handed="2" assists-short-handed="1" goals-game-winning="4" xts:goals="22" xts:shots="211" giveaways="24"/>
+            <stats-ice-hockey-defensive takeaways="49" shots-blocked="56" hits="45"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="815" faceoff-losses="624" faceoff-win-percentage="56.6"/>
+            <stats-ice-hockey-time-on-ice shifts="1832"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="right-forward" player-key="l.nhl.com-p.1447" uniform-number="18">
+          <name full="Nathan Horton"/>
+        </player-metadata>
+        <player-stats events-played="80" time-played-event-average="16:17" score="26" score-attempts="188" score-percentage="13.8">
+          <penalty-stats value="85" count="27" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="85" plus-minus="29">
+            <stats-ice-hockey-offensive assists="27" points="53" goals-power-play="6" points-power-play="8" assists-power-play="2" goals-short-handed="0" assists-short-handed="0" goals-game-winning="2" xts:goals="26" xts:shots="188" giveaways="25"/>
+            <stats-ice-hockey-defensive takeaways="26" shots-blocked="14" hits="74"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="8" faceoff-losses="11" faceoff-win-percentage="42.1"/>
+            <stats-ice-hockey-time-on-ice shifts="1559"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="right-forward" player-key="l.nhl.com-p.463" uniform-number="28">
+          <name full="Mark Recchi"/>
+        </player-metadata>
+        <player-stats events-played="81" time-played-event-average="16:06" score="14" score-attempts="132" score-percentage="10.6">
+          <penalty-stats value="35" count="16" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="35" plus-minus="13">
+            <stats-ice-hockey-offensive assists="34" points="48" goals-power-play="6" points-power-play="17" assists-power-play="11" goals-short-handed="0" assists-short-handed="1" goals-game-winning="6" xts:goals="14" xts:shots="132" giveaways="32"/>
+            <stats-ice-hockey-defensive takeaways="16" shots-blocked="25" hits="81"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="52" faceoff-losses="45" faceoff-win-percentage="53.6"/>
+            <stats-ice-hockey-time-on-ice shifts="1625"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="defenseman" player-key="l.nhl.com-p.605" uniform-number="12">
+          <name full="Tomas Kaberle"/>
+        </player-metadata>
+        <player-stats events-played="82" time-played-event-average="22:06" score="4" score-attempts="130" score-percentage="3.1">
+          <penalty-stats value="18" count="9" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="18" plus-minus="4">
+            <stats-ice-hockey-offensive assists="43" points="47" goals-power-play="0" points-power-play="25" assists-power-play="25" goals-short-handed="0" assists-short-handed="0" goals-game-winning="1" xts:goals="4" xts:shots="130" giveaways="70"/>
+            <stats-ice-hockey-defensive takeaways="29" shots-blocked="140" hits="37"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="0" faceoff-losses="0" faceoff-win-percentage="0.0"/>
+            <stats-ice-hockey-time-on-ice shifts="2237"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="defenseman" player-key="l.nhl.com-p.408" uniform-number="33">
+          <name full="Zdeno Chara"/>
+        </player-metadata>
+        <player-stats events-played="81" time-played-event-average="25:26" score="14" score-attempts="264" score-percentage="5.3">
+          <penalty-stats value="88" count="29" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="88" plus-minus="33">
+            <stats-ice-hockey-offensive assists="30" points="44" goals-power-play="8" points-power-play="15" assists-power-play="7" goals-short-handed="1" assists-short-handed="1" goals-game-winning="2" xts:goals="14" xts:shots="264" giveaways="62"/>
+            <stats-ice-hockey-defensive takeaways="32" shots-blocked="111" hits="153"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="0" faceoff-losses="0" faceoff-win-percentage="0.0"/>
+            <stats-ice-hockey-time-on-ice shifts="2371"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="center" player-key="l.nhl.com-p.2644" uniform-number="63">
+          <name full="Brad Marchand"/>
+        </player-metadata>
+        <player-stats events-played="77" time-played-event-average="13:59" score="21" score-attempts="149" score-percentage="14.1">
+          <penalty-stats value="51" count="24" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="51" plus-minus="25">
+            <stats-ice-hockey-offensive assists="20" points="41" goals-power-play="2" points-power-play="3" assists-power-play="1" goals-short-handed="5" assists-short-handed="1" goals-game-winning="2" xts:goals="21" xts:shots="149" giveaways="39"/>
+            <stats-ice-hockey-defensive takeaways="36" shots-blocked="30" hits="89"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="8" faceoff-losses="17" faceoff-win-percentage="32.0"/>
+            <stats-ice-hockey-time-on-ice shifts="1444"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="right-forward" player-key="l.nhl.com-p.1430" uniform-number="73">
+          <name full="Michael Ryder"/>
+        </player-metadata>
+        <player-stats events-played="79" time-played-event-average="14:29" score="18" score-attempts="165" score-percentage="10.9">
+          <penalty-stats value="26" count="13" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="26" plus-minus="-1">
+            <stats-ice-hockey-offensive assists="23" points="41" goals-power-play="8" points-power-play="14" assists-power-play="6" goals-short-handed="0" assists-short-handed="0" goals-game-winning="6" xts:goals="18" xts:shots="165" giveaways="28"/>
+            <stats-ice-hockey-defensive takeaways="35" shots-blocked="19" hits="70"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="5" faceoff-losses="3" faceoff-win-percentage="62.5"/>
+            <stats-ice-hockey-time-on-ice shifts="1388"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="center" player-key="l.nhl.com-p.2149" uniform-number="49">
+          <name full="Rich Peverley"/>
+        </player-metadata>
+        <player-stats events-played="82" time-played-event-average="18:15" score="18" score-attempts="201" score-percentage="9.0">
+          <penalty-stats value="37" count="17" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="37" plus-minus="-17">
+            <stats-ice-hockey-offensive assists="23" points="41" goals-power-play="6" points-power-play="12" assists-power-play="6" goals-short-handed="2" assists-short-handed="1" goals-game-winning="3" xts:goals="18" xts:shots="201" giveaways="23"/>
+            <stats-ice-hockey-defensive takeaways="63" shots-blocked="44" hits="32"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="657" faceoff-losses="519" faceoff-win-percentage="55.9"/>
+            <stats-ice-hockey-time-on-ice shifts="1911"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="defenseman" player-key="l.nhl.com-p.1139" uniform-number="44">
+          <name full="Dennis Seidenberg"/>
+        </player-metadata>
+        <player-stats events-played="81" time-played-event-average="23:32" score="7" score-attempts="166" score-percentage="4.2">
+          <penalty-stats value="41" count="18" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="41" plus-minus="3">
+            <stats-ice-hockey-offensive assists="25" points="32" goals-power-play="1" points-power-play="11" assists-power-play="10" goals-short-handed="0" assists-short-handed="0" goals-game-winning="2" xts:goals="7" xts:shots="166" giveaways="27"/>
+            <stats-ice-hockey-defensive takeaways="12" shots-blocked="174" hits="161"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="0" faceoff-losses="0" faceoff-win-percentage="0.0"/>
+            <stats-ice-hockey-time-on-ice shifts="2274"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="center" player-key="l.nhl.com-p.1466" uniform-number="11">
+          <name full="Gregory Campbell"/>
+        </player-metadata>
+        <player-stats events-played="80" time-played-event-average="13:26" score="13" score-attempts="98" score-percentage="13.3">
+          <penalty-stats value="93" count="29" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="93" plus-minus="11">
+            <stats-ice-hockey-offensive assists="16" points="29" goals-power-play="1" points-power-play="2" assists-power-play="1" goals-short-handed="1" assists-short-handed="3" goals-game-winning="1" xts:goals="13" xts:shots="98" giveaways="18"/>
+            <stats-ice-hockey-defensive takeaways="11" shots-blocked="52" hits="119"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="430" faceoff-losses="402" faceoff-win-percentage="51.7"/>
+            <stats-ice-hockey-time-on-ice shifts="1412"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="center" player-key="l.nhl.com-p.1529" uniform-number="23">
+          <name full="Chris Kelly"/>
+        </player-metadata>
+        <player-stats events-played="81" time-played-event-average="15:24" score="14" score-attempts="113" score-percentage="12.4">
+          <penalty-stats value="33" count="15" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="33" plus-minus="-13">
+            <stats-ice-hockey-offensive assists="14" points="28" goals-power-play="0" points-power-play="0" assists-power-play="0" goals-short-handed="1" assists-short-handed="2" goals-game-winning="2" xts:goals="14" xts:shots="113" giveaways="25"/>
+            <stats-ice-hockey-defensive takeaways="40" shots-blocked="54" hits="81"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="466" faceoff-losses="450" faceoff-win-percentage="50.9"/>
+            <stats-ice-hockey-time-on-ice shifts="1619"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="center" player-key="l.nhl.com-p.3514" uniform-number="19">
+          <name full="Tyler Seguin"/>
+        </player-metadata>
+        <player-stats events-played="74" time-played-event-average="12:12" score="11" score-attempts="131" score-percentage="8.4">
+          <penalty-stats value="18" count="9" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="18" plus-minus="-4">
+            <stats-ice-hockey-offensive assists="11" points="22" goals-power-play="1" points-power-play="3" assists-power-play="2" goals-short-handed="0" assists-short-handed="0" goals-game-winning="0" xts:goals="11" xts:shots="131" giveaways="24"/>
+            <stats-ice-hockey-defensive takeaways="22" shots-blocked="21" hits="20"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="150" faceoff-losses="153" faceoff-win-percentage="49.5"/>
+            <stats-ice-hockey-time-on-ice shifts="1122"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="left-forward" player-key="l.nhl.com-p.1124" uniform-number="22">
+          <name full="Shawn Thornton"/>
+        </player-metadata>
+        <player-stats events-played="79" time-played-event-average="10:04" score="10" score-attempts="151" score-percentage="6.6">
+          <penalty-stats value="122" count="32" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="122" plus-minus="8">
+            <stats-ice-hockey-offensive assists="10" points="20" goals-power-play="0" points-power-play="0" assists-power-play="0" goals-short-handed="0" assists-short-handed="0" goals-game-winning="2" xts:goals="10" xts:shots="151" giveaways="6"/>
+            <stats-ice-hockey-defensive takeaways="23" shots-blocked="18" hits="141"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="17" faceoff-losses="14" faceoff-win-percentage="54.8"/>
+            <stats-ice-hockey-time-on-ice shifts="1015"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="defenseman" player-key="l.nhl.com-p.1701" uniform-number="55">
+          <name full="Johnny Boychuk"/>
+        </player-metadata>
+        <player-stats events-played="69" time-played-event-average="20:30" score="3" score-attempts="154" score-percentage="1.9">
+          <penalty-stats value="45" count="14" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="45" plus-minus="15">
+            <stats-ice-hockey-offensive assists="13" points="16" goals-power-play="1" points-power-play="2" assists-power-play="1" goals-short-handed="0" assists-short-handed="0" goals-game-winning="1" xts:goals="3" xts:shots="154" giveaways="21"/>
+            <stats-ice-hockey-defensive takeaways="14" shots-blocked="115" hits="117"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="0" faceoff-losses="0" faceoff-win-percentage="0.0"/>
+            <stats-ice-hockey-time-on-ice shifts="1746"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="defenseman" player-key="l.nhl.com-p.3236" uniform-number="54">
+          <name full="Adam McQuaid"/>
+        </player-metadata>
+        <player-stats events-played="67" time-played-event-average="14:51" score="3" score-attempts="46" score-percentage="6.5">
+          <penalty-stats value="96" count="26" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="96" plus-minus="30">
+            <stats-ice-hockey-offensive assists="12" points="15" goals-power-play="0" points-power-play="0" assists-power-play="0" goals-short-handed="0" assists-short-handed="0" goals-game-winning="0" xts:goals="3" xts:shots="46" giveaways="15"/>
+            <stats-ice-hockey-defensive takeaways="5" shots-blocked="131" hits="102"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="0" faceoff-losses="0" faceoff-win-percentage="0.0"/>
+            <stats-ice-hockey-time-on-ice shifts="1353"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="defenseman" player-key="l.nhl.com-p.490" uniform-number="21">
+          <name full="Andrew Ference"/>
+        </player-metadata>
+        <player-stats events-played="70" time-played-event-average="17:58" score="3" score-attempts="78" score-percentage="3.8">
+          <penalty-stats value="60" count="16" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="60" plus-minus="22">
+            <stats-ice-hockey-offensive assists="12" points="15" goals-power-play="0" points-power-play="1" assists-power-play="1" goals-short-handed="0" assists-short-handed="1" goals-game-winning="0" xts:goals="3" xts:shots="78" giveaways="28"/>
+            <stats-ice-hockey-defensive takeaways="4" shots-blocked="82" hits="74"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="0" faceoff-losses="0" faceoff-win-percentage="0.0"/>
+            <stats-ice-hockey-time-on-ice shifts="1613"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="left-forward" player-key="l.nhl.com-p.1639" uniform-number="20">
+          <name full="Daniel Paille"/>
+        </player-metadata>
+        <player-stats events-played="43" time-played-event-average="11:18" score="6" score-attempts="48" score-percentage="12.5">
+          <penalty-stats value="28" count="7" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="28" plus-minus="3">
+            <stats-ice-hockey-offensive assists="7" points="13" goals-power-play="0" points-power-play="0" assists-power-play="0" goals-short-handed="1" assists-short-handed="0" goals-game-winning="0" xts:goals="6" xts:shots="48" giveaways="4"/>
+            <stats-ice-hockey-defensive takeaways="10" shots-blocked="17" hits="24"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="0" faceoff-losses="0" faceoff-win-percentage="0.0"/>
+            <stats-ice-hockey-time-on-ice shifts="612"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="defenseman" player-key="l.nhl.com-p.3322" uniform-number="47">
+          <name full="Steven Kampfer"/>
+        </player-metadata>
+        <player-stats events-played="38" time-played-event-average="17:43" score="5" score-attempts="57" score-percentage="8.8">
+          <penalty-stats value="12" count="6" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="12" plus-minus="9">
+            <stats-ice-hockey-offensive assists="5" points="10" goals-power-play="0" points-power-play="3" assists-power-play="3" goals-short-handed="0" assists-short-handed="0" goals-game-winning="1" xts:goals="5" xts:shots="57" giveaways="10"/>
+            <stats-ice-hockey-defensive takeaways="5" shots-blocked="56" hits="41"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="0" faceoff-losses="0" faceoff-win-percentage="0.0"/>
+            <stats-ice-hockey-time-on-ice shifts="822"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="center" player-key="l.nhl.com-p.743" uniform-number="91">
+          <name full="Marc Savard"/>
+        </player-metadata>
+        <player-stats events-played="25" time-played-event-average="15:48" score="2" score-attempts="50" score-percentage="4.0">
+          <penalty-stats value="29" count="9" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="29" plus-minus="-7">
+            <stats-ice-hockey-offensive assists="8" points="10" goals-power-play="0" points-power-play="4" assists-power-play="4" goals-short-handed="0" assists-short-handed="0" goals-game-winning="1" xts:goals="2" xts:shots="50" giveaways="18"/>
+            <stats-ice-hockey-defensive takeaways="3" shots-blocked="4" hits="5"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="167" faceoff-losses="161" faceoff-win-percentage="50.9"/>
+            <stats-ice-hockey-time-on-ice shifts="482"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="right-forward" player-key="l.nhl.com-p.2932" uniform-number="38">
+          <name full="Jordan Caron"/>
+        </player-metadata>
+        <player-stats events-played="23" time-played-event-average="12:40" score="3" score-attempts="27" score-percentage="11.1">
+          <penalty-stats value="6" count="3" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="6" plus-minus="3">
+            <stats-ice-hockey-offensive assists="4" points="7" goals-power-play="0" points-power-play="0" assists-power-play="0" goals-short-handed="0" assists-short-handed="0" goals-game-winning="1" xts:goals="3" xts:shots="27" giveaways="5"/>
+            <stats-ice-hockey-defensive takeaways="3" shots-blocked="11" hits="19"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="1" faceoff-losses="6" faceoff-win-percentage="14.3"/>
+            <stats-ice-hockey-time-on-ice shifts="366"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="goalie" player-key="l.nhl.com-p.740" uniform-number="30">
+          <name full="Tim Thomas"/>
+        </player-metadata>
+        <player-stats events-played="57" time-played-total="3364" time-played-event-average="59:01" score="0" score-attempts="0" score-opposing="112" score-attempts-opposing="1811" score-attempts-on-goal="1811" score-percentage="0.0">
+          <penalty-stats value="13" count="5" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="13" plus-minus="0">
+            <stats-ice-hockey-offensive assists="3" points="3" goals-power-play="0" points-power-play="0" assists-power-play="0" goals-short-handed="0" assists-short-handed="0" goals-game-winning="0" xts:goals="0" xts:shots="0" giveaways="9"/>
+            <stats-ice-hockey-defensive takeaways="0" shots-blocked="0" hits="0" goaltender-wins="35" goaltender-losses="11" goaltender-losses-overtime="9" shutouts="9" xts:goals-allowed="112" xts:goals-regulation-allowed="" xts:shots-allowed="1811" saves="1699" save-percentage=".938" goals-against-average="2.00"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="0" faceoff-losses="0" faceoff-win-percentage="0.0"/>
+            <stats-ice-hockey-time-on-ice shifts="204" xts:time-total="3364"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="center" player-key="l.nhl.com-p.2642" uniform-number="52">
+          <name full="Zach Hamill"/>
+        </player-metadata>
+        <player-stats events-played="3" time-played-event-average="10:28" score="0" score-attempts="1" score-percentage="0.0">
+          <penalty-stats value="0" count="0" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="0" plus-minus="1">
+            <stats-ice-hockey-offensive assists="1" points="1" goals-power-play="0" points-power-play="0" assists-power-play="0" goals-short-handed="0" assists-short-handed="0" goals-game-winning="0" xts:goals="0" xts:shots="1" giveaways="2"/>
+            <stats-ice-hockey-defensive takeaways="1" shots-blocked="3" hits="0"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="5" faceoff-losses="11" faceoff-win-percentage="31.3"/>
+            <stats-ice-hockey-time-on-ice shifts="40"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="defenseman" player-key="l.nhl.com-p.3368" uniform-number="0">
+          <name full="Colby Cohen"/>
+        </player-metadata>
+        <player-stats events-played="3" time-played-event-average="17:44" score="0" score-attempts="2" score-percentage="0.0">
+          <penalty-stats value="4" count="2" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="4" plus-minus="-1">
+            <stats-ice-hockey-offensive assists="0" points="0" goals-power-play="0" points-power-play="0" assists-power-play="0" goals-short-handed="0" assists-short-handed="0" goals-game-winning="0" xts:goals="0" xts:shots="2" giveaways="0"/>
+            <stats-ice-hockey-defensive takeaways="2" shots-blocked="3" hits="4"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="0" faceoff-losses="0" faceoff-win-percentage="0.0"/>
+            <stats-ice-hockey-time-on-ice shifts="79"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="defenseman" player-key="l.nhl.com-p.787" uniform-number="34">
+          <name full="Shane Hnidy"/>
+        </player-metadata>
+        <player-stats events-played="3" time-played-event-average="14:46" score="0" score-attempts="3" score-percentage="0.0">
+          <penalty-stats value="2" count="1" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="2" plus-minus="-2">
+            <stats-ice-hockey-offensive assists="0" points="0" goals-power-play="0" points-power-play="0" assists-power-play="0" goals-short-handed="0" assists-short-handed="0" goals-game-winning="0" xts:goals="0" xts:shots="3" giveaways="1"/>
+            <stats-ice-hockey-defensive takeaways="0" shots-blocked="1" hits="2"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="0" faceoff-losses="0" faceoff-win-percentage="0.0"/>
+            <stats-ice-hockey-time-on-ice shifts="59"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="defenseman" player-key="l.nhl.com-p.3323" uniform-number="43">
+          <name full="Matt Bartkowski"/>
+        </player-metadata>
+        <player-stats events-played="6" time-played-event-average="9:10" score="0" score-attempts="2" score-percentage="0.0">
+          <penalty-stats value="4" count="2" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="4" plus-minus="-1">
+            <stats-ice-hockey-offensive assists="0" points="0" goals-power-play="0" points-power-play="0" assists-power-play="0" goals-short-handed="0" assists-short-handed="0" goals-game-winning="0" xts:goals="0" xts:shots="2" giveaways="1"/>
+            <stats-ice-hockey-defensive takeaways="0" shots-blocked="2" hits="4"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="0" faceoff-losses="0" faceoff-win-percentage="0.0"/>
+            <stats-ice-hockey-time-on-ice shifts="73"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="goalie" player-key="l.nhl.com-p.2335" uniform-number="40">
+          <name full="Tuukka Rask"/>
+        </player-metadata>
+        <player-stats events-played="29" time-played-total="1594" time-played-event-average="54:58" score="0" score-attempts="0" score-opposing="71" score-attempts-opposing="866" score-attempts-on-goal="866" score-percentage="0.0">
+          <penalty-stats value="2" count="1" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="2" plus-minus="0">
+            <stats-ice-hockey-offensive assists="0" points="0" goals-power-play="0" points-power-play="0" assists-power-play="0" goals-short-handed="0" assists-short-handed="0" goals-game-winning="0" xts:goals="0" xts:shots="0" giveaways="11"/>
+            <stats-ice-hockey-defensive takeaways="0" shots-blocked="0" hits="0" goaltender-wins="11" goaltender-losses="14" goaltender-losses-overtime="2" shutouts="2" xts:goals-allowed="71" xts:goals-regulation-allowed="" xts:shots-allowed="866" saves="795" save-percentage=".918" goals-against-average="2.67"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="0" faceoff-losses="0" faceoff-win-percentage="0.0"/>
+            <stats-ice-hockey-time-on-ice shifts="99" xts:time-total="1594"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="goalie" player-key="l.nhl.com-p.2217" uniform-number="35">
+          <name full="Anton Khudobin"/>
+        </player-metadata>
+        <player-stats events-played="4" time-played-total="189" time-played-event-average="47:11" score="0" score-attempts="0" score-opposing="5" score-attempts-opposing="86" score-attempts-on-goal="86" score-percentage="0.0">
+          <penalty-stats value="0" count="0" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="0" plus-minus="0">
+            <stats-ice-hockey-offensive assists="0" points="0" goals-power-play="0" points-power-play="0" assists-power-play="0" goals-short-handed="0" assists-short-handed="0" goals-game-winning="0" xts:goals="0" xts:shots="0" giveaways="2"/>
+            <stats-ice-hockey-defensive takeaways="0" shots-blocked="0" hits="0" goaltender-wins="2" goaltender-losses="1" goaltender-losses-overtime="0" shutouts="1" xts:goals-allowed="5" xts:goals-regulation-allowed="" xts:shots-allowed="86" saves="81" save-percentage=".942" goals-against-average="1.59"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="0" faceoff-losses="0" faceoff-win-percentage="0.0"/>
+            <stats-ice-hockey-time-on-ice shifts="13" xts:time-total="189"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+      <player>
+        <player-metadata position-regular="center" player-key="l.nhl.com-p.2845" uniform-number="72">
+          <name full="Jamie Arniel"/>
+        </player-metadata>
+        <player-stats events-played="1" time-played-event-average="12:26" score="0" score-attempts="3" score-percentage="0.0">
+          <penalty-stats value="0" count="0" type="minutes"/>
+          <outcome-totals/>
+          <player-stats-ice-hockey penalty-minutes="0" plus-minus="-1">
+            <stats-ice-hockey-offensive assists="0" points="0" goals-power-play="0" points-power-play="0" assists-power-play="0" goals-short-handed="0" assists-short-handed="0" goals-game-winning="0" xts:goals="0" xts:shots="3" giveaways="0"/>
+            <stats-ice-hockey-defensive takeaways="0" shots-blocked="0" hits="0"/>
+            <stats-ice-hockey-faceoffs faceoff-wins="0" faceoff-losses="0" faceoff-win-percentage="0.0"/>
+            <stats-ice-hockey-time-on-ice shifts="13"/>
+          </player-stats-ice-hockey>
+        </player-stats>
+      </player>
+    </team>
+  </statistic>
+</sports-content></xts:sports-content-set>
